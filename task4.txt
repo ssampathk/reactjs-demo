@@ -1,8 +1,8 @@
 git init .
 git add https://github.com/ssampathk/reactjs-demo.git .
 git checkout -b dev  # Creates and checks out a new branch called 'dev'
-touch .gitignore # Create a .gitignore file in the root of your repository to specify files and folders to ignore.
-touch .dockerignore #Create a .dockerignore file in the root of your repository to specify files and folders to ignore during the Docker build process.
+#touch .gitignore # Create a .gitignore file in the root of your repository to specify files and folders to ignore.
+#touch .dockerignore #Create a .dockerignore file in the root of your repository to specify files and folders to ignore during the Docker build process.
 git add .  # Adds all files and changes to the staging area
 git commit -m "Initial commit on dev branch with .gitignore and .dockerignore"
 git push origin dev  # Pushes changes to the 'dev' branch on the remote repository
