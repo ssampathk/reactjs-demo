@@ -1,8 +1,9 @@
 git init .
-git remote add origin https://github.com/ssampathk/reactjs-demo.git
+git remote set-url origin https://ssampathk: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@github.com/ssampathk/reactjs-demo.git
+#git remote add origin https://github.com/ssampathk/reactjs-demo.git
 git checkout -b dev  # Creates and checks out a new branch called 'dev'
 #touch .gitignore # Create a .gitignore file in the root of your repository to specify files and folders to ignore.
 #touch .dockerignore #Create a .dockerignore file in the root of your repository to specify files and folders to ignore during the Docker build process.
 git add .  # Adds all files and changes to the staging area
 git commit -m "Initial commit on dev branch with .gitignore and .dockerignore"
-git push origin dev  # Pushes changes to the 'dev' branch on the remote repository
+git push origin dev1  # Pushes changes to the 'dev' branch on the remote repository
